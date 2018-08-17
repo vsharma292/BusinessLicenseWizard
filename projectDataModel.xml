@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root product-version="12.2.11.0">
+  <entities>
+    <entity ref="global">
+      <attribute name="a37f6337-0599-44c9-9690-2985c469b36c" type="boolean">
+        <text>
+          <base>the License Wizard interview is complete</base>
+          <parse>s(ver('12.2.1.0'),v(be,t(simple,present,normal)),sb('the License Wizard interview',singular),o('complete'))</parse>
+        </text>
+      </attribute>
+      <attribute name="2be88c25-03fa-4ee0-9ded-44955c6c228d" type="text" public-name="biz_Type">
+        <text>
+          <base>the business type</base>
+        </text>
+      </attribute>
+      <attribute name="922763cc-f39d-4163-a172-7bf1fc9e2485" type="text" public-name="biz_Status">
+        <text>
+          <base>the status of the business</base>
+        </text>
+      </attribute>
+      <attribute name="c89440c4-7a74-4296-bf16-82617285f89d" type="text" public-name="biz_LegalStructure">
+        <text>
+          <base>the legal structure of the business</base>
+        </text>
+      </attribute>
+      <attribute name="25416e09-2078-4c1b-8ddc-45d6382649d2" type="text" user-created="true" validation-message="Invalid Value." public-name="biz_EmpNumberGroup">
+        <text>
+          <base>the number (grouping) of employees in the business</base>
+        </text>
+      </attribute>
+      <attribute name="119d007f-2389-4325-b237-72ef2dcf97db" type="boolean" public-name="FoodPrep">
+        <text>
+          <base>the applicant intends to conduct any type of food preparation</base>
+          <parse>s(ver('12.2.1.0'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to conduct any type of food preparation'))</parse>
+        </text>
+      </attribute>
+      <attribute name="7ea5a2a5-2bb1-493c-93d6-65825283a077" type="boolean" public-name="FoodPerishable">
+        <text>
+          <base>the applicant intends to sell perishable food (eggs, fluid milk and refrigerated meats)</base>
+          <parse>s(ver('12.2.1.0'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to sell perishable food (eggs, fluid milk and refrigerated meats)'))</parse>
+        </text>
+      </attribute>
+      <attribute name="a2677ff3-5edb-4d3d-81bb-110d051a8893" type="boolean" public-name="PurchaseExistingBiz">
+        <text>
+          <base>the applicant intends to purchase an existing business</base>
+          <parse>s(ver('12.2.1.0'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to purchase an existing business'))</parse>
+        </text>
+      </attribute>
+      <attribute name="785d5105-f87a-4a49-9c8c-ecc9fe2b1846" type="boolean" public-name="InfoExpandBiz">
+        <text>
+          <base>the applicant would like general information about starting or expanding a business</base>
+          <parse>s(ver('12.2.1.0'),v(like+would,t(simple,modal,normal)),sb('the applicant',plural),o('general information about starting or expanding a business'))</parse>
+        </text>
+      </attribute>
+      <attribute name="6e057652-2cfa-49d4-bfd6-d6cea6ccbe3f" type="boolean" public-name="EmployerObligations">
+        <text>
+          <base>the applicant would like information on employer obligations</base>
+          <parse>s(ver('12.2.1.0'),v(like+would,t(simple,modal,normal)),sb('the applicant',plural),o('information on employer obligations'))</parse>
+        </text>
+      </attribute>
+      <attribute name="ab1d29a2-88f0-4284-94f5-3062a5377ad7" type="boolean">
+        <text>
+          <base>the permit link (Alcohol Dealer Registration) should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the permit link (Alcohol Dealer Registration)',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="7756a47c-fdcc-4f7e-a0f8-3870b7ac3433" type="boolean">
+        <text>
+          <base>the permit link (Alcohol Dealer Registration) should be hidden from the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(hide+should,t(simple,modal,normal)),ob('the permit link (Alcohol Dealer Registration)',singular),o('from the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="fbc28471-7459-40bd-b091-eeae503504a2" type="boolean">
+        <text>
+          <base>the permit link (Grocery Store Beer/Wine Product License (Off Premises)) should be hidden from the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(hide+should,t(simple,modal,normal)),ob('the permit link (Grocery Store Beer/Wine Product License (Off Premises))',singular),o('from the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="3a8c01d4-67eb-49ca-80cb-3d9b262e125d" type="boolean">
+        <text>
+          <base>the permit link (Lottery Agent License) should be hidden on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(hide+should,t(simple,modal,normal)),ob('the permit link (Lottery Agent License)',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="77b4294d-0d35-4479-8500-771a294a797b" type="boolean">
+        <text>
+          <base>the helpful information general links should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the helpful information general links',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="cf9f6a55-4e10-44fa-8287-2233df301797" type="boolean">
+        <text>
+          <base>the legal structure (Sole Proprietorship) link should be hidden on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(hide+should,t(simple,modal,normal)),ob('the legal structure (Sole Proprietorship) link',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="e115baa5-d26c-4c17-9227-0d1c4bacfa2c" type="boolean">
+        <text>
+          <base>the legal structure (Partnership) link should be hidden on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(hide+should,t(simple,modal,normal)),ob('the legal structure (Partnership) link',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="288f7ae4-36a9-4109-8d0c-5035d4dc026e" type="boolean">
+        <text>
+          <base>the legal structure (Corporation) link should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the legal structure (Corporation) link',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="debcdb51-e2f3-4717-b7fd-9e305ec3939b" type="boolean">
+        <text>
+          <base>the legal structure (Corporation) link should be hidden on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(hide+should,t(simple,modal,normal)),ob('the legal structure (Corporation) link',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="847f65ac-a0fe-403b-97d9-4b3077ff1c60" type="boolean">
+        <text>
+          <base>the Returnable Beverage Containers link should be hidden on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(hide+should,t(simple,modal,normal)),ob('the Returnable Beverage Containers link',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="987a4989-e356-4992-82ea-84945ea5803e" type="boolean">
+        <text>
+          <base>the Food Stamps links should be hidden on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(hide+should,t(simple,modal,normal)),ob('the Food Stamps links',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="b4de9661-cbd7-451c-b4d1-9aad14ea5f5b" type="boolean">
+        <text>
+          <base>the Information Sheets heading should be hidden on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(hide+should,t(simple,modal,normal)),ob('the Information Sheets heading',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="6815f523-dea7-462b-8b62-62441a625b08" type="boolean">
+        <text>
+          <base>the legal structure (Sole Proprietorship) link should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the legal structure (Sole Proprietorship) link',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="2b50aa2b-6887-4241-b7a5-2931f02758c9" type="boolean">
+        <text>
+          <base>the Business Structure and Name Filing heading should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the Business Structure and Name Filing heading',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="a6988eec-b588-48e2-ab43-3b14dee36437" type="text">
+        <text>
+          <base>the business type is</base>
+        </text>
+      </attribute>
+      <attribute name="af446478-64e2-48bd-8ffc-cb0222f56483" type="boolean">
+        <text>
+          <base>the Business Structure heading should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the Business Structure heading',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="fbee91ea-cdb6-446e-9139-8238d1b9d45c" type="boolean">
+        <text>
+          <base>the legal structure (Partnership) link should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the legal structure (Partnership) link',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="0864ad07-fc16-41cf-ab0f-ee9074611dfc" type="boolean">
+        <text>
+          <base>the Information Sheets heading should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the Information Sheets heading',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="2b2b0a6b-90bc-4ba8-8fd1-181eae2bedf7" type="boolean">
+        <text>
+          <base>the Returnable Beverage Containers link should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the Returnable Beverage Containers link',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="a8b3836d-56af-4ce8-b9d4-d4ad7097c4ce" type="boolean">
+        <text>
+          <base>the Food Stamps links should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the Food Stamps links',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="a35ba067-0a66-40c3-bbf4-06de85538ee1" type="boolean">
+        <text>
+          <base>the permit link (Grocery Store Beer/Wine Product License (Off Premises)) should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the permit link (Grocery Store Beer/Wine Product License (Off Premises))',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="4ef7a901-2a6c-43d8-b885-b2f598a6e983" type="boolean">
+        <text>
+          <base>the permit link (Lottery Agent License) should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the permit link (Lottery Agent License)',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="1bc0342e-d4ce-437a-8517-7f03db55156a" type="boolean">
+        <text>
+          <base>the permit link (Food Establishment License) should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the permit link (Food Establishment License)',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="6401f8b1-bf2a-475c-9ab0-c52d5b5cba7d" type="boolean">
+        <text>
+          <base>the permit link (Weights and Measures License) should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the permit link (Weights and Measures License)',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="7430d782-6210-40f8-9e4e-c24e4d391a76" type="text" user-created="true" public-name="applicant" validation-message="Invalid value." substitutable="true">
+        <text>
+          <base>the applicant</base>
+        </text>
+      </attribute>
+      <attribute name="169ec802-a164-4c5c-afc8-bf2db9cb597a" type="boolean">
+        <text>
+          <base>the permit link (Pharmacy License) should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the permit link (Pharmacy License)',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="5640c0f1-5ad1-4760-a6cc-b6131ccfef6d" type="boolean" user-created="true" validation-message="Invalid value." public-name="VendingMachine">
+        <text>
+          <base>the applicant intends to operate a vending machine</base>
+          <parse>s(ver('12.2.1.0'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to operate a vending machine'))</parse>
+        </text>
+      </attribute>
+      <attribute name="8630f469-7d3f-43a1-ad4f-eb21926deb06" type="boolean">
+        <text>
+          <base>the permit link (Vending Machine License) should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.1.0'),v(display+should,t(simple,modal,normal)),ob('the permit link (Vending Machine License)',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+      <attribute name="f7182d3e-6ec7-4d65-add3-8645e340d71b" type="boolean">
+        <text>
+          <base>the applicant plans to sell prescription medication</base>
+          <parse>s(ver('12.2.1.0'),stat('the applicant plans to sell prescription medication'))</parse>
+        </text>
+      </attribute>
+      <attribute name="2bf51aad-8a47-4a03-a46e-9be87994500a" type="boolean" public-name="Prescriptions">
+        <text>
+          <base>the applicant intends to sell prescription medication</base>
+          <parse>s(ver('12.2.1.0'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to sell prescription medication'))</parse>
+        </text>
+      </attribute>
+      <attribute name="93a7468c-3a3c-44fc-b2b1-11be17f2af49" type="boolean" public-name="OnlinePayment" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the applicant intends to accept online payments</base>
+          <parse>s(ver('12.2.5.618'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to accept online payments'))</parse>
+        </text>
+      </attribute>
+      <attribute name="13f2e2d5-1d27-47fb-8fcd-013e1a9856d5" type="boolean" public-name="EmptyBeverageContainer">
+        <text>
+          <base>the applicant intends to accept returnable empty beverage containers for redemption</base>
+          <parse>s(ver('12.2.1.0'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to accept returnable empty beverage containers for redemption'))</parse>
+        </text>
+      </attribute>
+      <attribute name="efd592da-8b95-4824-913b-b7acec79a5d4" type="boolean" public-name="LotteryTickets">
+        <text>
+          <base>the applicant intends to sell lottery tickets</base>
+          <parse>s(ver('12.2.1.0'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to sell lottery tickets'))</parse>
+        </text>
+      </attribute>
+      <attribute name="366f714c-a666-4445-b4f0-d54d3340806d" type="boolean" public-name="OffPremiseBeer">
+        <text>
+          <base>the applicant intends to sell beer for off-premise consumption</base>
+          <parse>s(ver('12.2.1.0'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to sell beer for off-premise consumption'))</parse>
+        </text>
+      </attribute>
+      <attribute name="633bbcc6-d84e-49f0-907a-a3341efb8cc6" type="boolean" public-name="OffPremiseWine">
+        <text>
+          <base>the applicant intends to sell wine products for off-premise consumption</base>
+          <parse>s(ver('12.2.1.0'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to sell wine products for off-premise consumption'))</parse>
+        </text>
+      </attribute>
+      <attribute name="40d915d3-e2be-483d-baa7-f3953843d5db" type="boolean" public-name="WeighDevice">
+        <text>
+          <base>the applicant intends to use a commercial weighing or measuring device</base>
+          <parse>s(ver('12.2.1.0'),v(intend,t(simple,present,normal)),sb('the applicant',singular),o('to use a commercial weighing or measuring device'))</parse>
+        </text>
+      </attribute>
+      <attribute name="460930a6-c63f-4f1c-a630-1cc5e2f37602" type="boolean">
+        <text>
+          <base>the Online Payment Services link should be displayed on the summary screen</base>
+          <parse>s(ver('12.2.5.618'),v(display+should,t(simple,modal,normal)),ob('the Online Payment Services link',singular),o('on the summary screen'))</parse>
+        </text>
+      </attribute>
+    </entity>
+  </entities>
+  <relationships />
+  <rule-folders />
+  <rules />
+</root>

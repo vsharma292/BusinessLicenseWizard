@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rulebase-project product-version="12.2.11.65" created-ts="2013-05-21 20:01:40Z">
+  <source-language code="en-US" />
+  <source-region code="en-US" />
+  <source-timezone id="Etc/GMT" />
+  <project-styling>
+    <has-back-button>true</has-back-button>
+    <show-header>true</show-header>
+    <show-footer>false</show-footer>
+    <show-progress-stages>3</show-progress-stages>
+    <hide-embedded-header>true</hide-embedded-header>
+    <hide-embedded-footer>false</hide-embedded-footer>
+    <hide-embedded-progress-stages>false</hide-embedded-progress-stages>
+    <page-width>900</page-width>
+    <appearance-title>BusinessLicenseWizard</appearance-title>
+    <header-image-url></header-image-url>
+    <header-image-link></header-image-link>
+    <header-text></header-text>
+    <footer-left></footer-left>
+    <footer-right></footer-right>
+    <formatter-decimal-separator>.</formatter-decimal-separator>
+    <formatter-grouping-separator-list>
+      <list-item>,</list-item>
+      <list-item></list-item>
+    </formatter-grouping-separator-list>
+    <formatter-currency-symbol>$</formatter-currency-symbol>
+    <formatter-input-number-format-list>
+      <list-item>#,##0.###############</list-item>
+    </formatter-input-number-format-list>
+    <formatter-output-number-format>#,##0.###############</formatter-output-number-format>
+    <formatter-input-currency-format-list>
+      <list-item>#,##0.0#</list-item>
+    </formatter-input-currency-format-list>
+    <formatter-output-currency-format>#,##0.00</formatter-output-currency-format>
+    <formatter-input-date-format-list>
+      <list-item>M/d/yy</list-item>
+      <list-item>M-d-yy</list-item>
+      <list-item>MM/dd/yyyy</list-item>
+      <list-item>MM-dd-yyyy</list-item>
+      <list-item>dd MM yyyy</list-item>
+      <list-item>yyyy-MM-dd</list-item>
+    </formatter-input-date-format-list>
+    <formatter-output-date-format>MM/dd/yyyy</formatter-output-date-format>
+    <formatter-input-datetime-format-list>
+      <list-item>M/d/yy HH:mm</list-item>
+      <list-item>M-d-yy HH:mm</list-item>
+      <list-item>MM/dd/yyyy HH:mm</list-item>
+      <list-item>MM-dd-yyyy HH:mm</list-item>
+      <list-item>dd MM yyyy HH:mm</list-item>
+      <list-item>yyyy-MM-dd HH:mm</list-item>
+      <list-item>yyyy-MM-dd HH:mm:ss</list-item>
+    </formatter-input-datetime-format-list>
+    <formatter-output-datetime-format>MM/dd/yyyy HH:mm</formatter-output-datetime-format>
+    <header-text-style font-family="" font-size="x-large" font-bold="false" font-italic="false" text-color="#000" back-color="#fff" />
+    <footer-text-style font-family="" font-size="small" font-bold="false" font-italic="false" text-color="#000" back-color="#fff" />
+    <active-stage-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#3F3F3F" back-color="white" />
+    <future-stage-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#585858" back-color="White" />
+    <active-screen-style font-family="" font-size="" font-bold="true" font-italic="false" text-color="#1C7EAE" back-color="white" />
+    <screen-title-style font-family="" font-size="x-large" font-bold="false" font-italic="false" text-color="#000" back-color="#fff" />
+    <error-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#fff" back-color="#C24839" />
+    <warning-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#fff" back-color="#B95C00" />
+    <heading1-style font-family="" font-size="x-large" font-bold="false" font-italic="false" text-color="#000" back-color="#fff" />
+    <heading2-style font-family="" font-size="large" font-bold="false" font-italic="false" text-color="#2f383c" back-color="#fff" />
+    <heading3-style font-family="" font-size="large" font-bold="false" font-italic="true" text-color="#000" back-color="#fff" />
+    <heading4-style font-family="" font-size="" font-bold="true" font-italic="false" text-color="#2f383c" back-color="#fff" />
+    <label-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#000" back-color="#fff" />
+    <alert-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#e50000" back-color="#fff" />
+    <comment-style font-family="" font-size="x-small" font-bold="false" font-italic="false" text-color="#6f6780" back-color="#fff" />
+    <question-text-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#000" back-color="#fff" />
+    <control-text-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#000" back-color="#fff" />
+    <page-background-color>white</page-background-color>
+    <page-gutter-color>#AABED9</page-gutter-color>
+    <page-progress-top-color>#3A3A3A</page-progress-top-color>
+    <page-progress-stages-fill-color>White</page-progress-stages-fill-color>
+    <page-progress-screens-fill-color>#4F78B0</page-progress-screens-fill-color>
+    <page-progress-bottom-color>#4F78B0</page-progress-bottom-color>
+    <page-font-family>Roboto, Arial, Helvetica, sans-serif</page-font-family>
+    <show-mandatory-icon>false</show-mandatory-icon>
+    <mandatory-image-url></mandatory-image-url>
+    <searchable-drop-down-results>20</searchable-drop-down-results>
+    <control-max-width>250</control-max-width>
+    <multi-line-rows>5</multi-line-rows>
+    <entity-collect-odd-color>#ddf</entity-collect-odd-color>
+    <entity-collect-even-color>#eef</entity-collect-even-color>
+    <messages>
+      <message key="jan-full">January</message>
+      <message key="feb-full">February</message>
+      <message key="mar-full">March</message>
+      <message key="apr-full">April</message>
+      <message key="may-full">May</message>
+      <message key="jun-full">June</message>
+      <message key="jul-full">July</message>
+      <message key="aug-full">August</message>
+      <message key="sep-full">September</message>
+      <message key="oct-full">October</message>
+      <message key="nov-full">November</message>
+      <message key="dec-full">December</message>
+      <message key="jan-short">Jan</message>
+      <message key="feb-short">Feb</message>
+      <message key="mar-short">Mar</message>
+      <message key="apr-short">Apr</message>
+      <message key="may-short">May</message>
+      <message key="jun-short">Jun</message>
+      <message key="jul-short">Jul</message>
+      <message key="aug-short">Aug</message>
+      <message key="sep-short">Sep</message>
+      <message key="oct-short">Oct</message>
+      <message key="nov-short">Nov</message>
+      <message key="dec-short">Dec</message>
+      <message key="mon-full">Monday</message>
+      <message key="tue-full">Tuesday</message>
+      <message key="wed-full">Wednesday</message>
+      <message key="thu-full">Thursday</message>
+      <message key="fri-full">Friday</message>
+      <message key="sat-full">Saturday</message>
+      <message key="sun-full">Sunday</message>
+      <message key="mon-short">Mon</message>
+      <message key="tue-short">Tues</message>
+      <message key="wed-short">Wed</message>
+      <message key="thu-short">Thurs</message>
+      <message key="fri-short">Fri</message>
+      <message key="sat-short">Sat</message>
+      <message key="sun-short">Sun</message>
+      <message key="mon-min">M</message>
+      <message key="tue-min">T</message>
+      <message key="wed-min">W</message>
+      <message key="thu-min">T</message>
+      <message key="fri-min">F</message>
+      <message key="sat-min">S</message>
+      <message key="sun-min">S</message>
+      <message key="calendar-icon-text">Click to open calendar</message>
+      <message key="default-day-hint">dd</message>
+      <message key="default-month-hint">mm</message>
+      <message key="default-year-hint">yyyy</message>
+      <message key="default-hour-hint">hh</message>
+      <message key="default-minute-hint">mm</message>
+      <message key="default-second-hint">ss</message>
+      <message key="default-meridiem-hint">am/pm</message>
+      <message key="pagedir-right-to-left">false</message>
+      <message key="delete-instance-text">Remove</message>
+      <message key="add-button-text">Add New Instance</message>
+      <message key="submit-button-text">Submit</message>
+      <message key="next-button-text">Next</message>
+      <message key="back-button-text">Back</message>
+      <message key="signature-button-clear-text">Clear</message>
+      <message key="day-selection-alt">select day of the month</message>
+      <message key="month-selection-alt">select month of the year</message>
+      <message key="year-selection-alt">enter 4 digit year</message>
+      <message key="tree-collapse-alt">Click to collapse node</message>
+      <message key="tree-expand-alt">Click to expand node</message>
+      <message key="decision-report-already-proven">(See above for proof)</message>
+      <message key="searching-combo-trigger-tooltip">Show all items</message>
+      <message key="captcha-image-alt-text">An image CAPTCHA challenge</message>
+      <message key="captcha-audio-alt-text">Click to play an audio version of this CAPTCHA</message>
+      <message key="mandatory-icon-alt-text">This question is mandatory</message>
+      <message key="complete-screen-image-alt">This screen has been completed</message>
+      <message key="complete-stage-image-alt">This stage has been completed</message>
+      <message key="incomplete-screen-image-alt">This screen is not complete</message>
+      <message key="incomplete-stage-image-alt">This stage is not complete</message>
+      <message key="submit-progress-text">Please do not leave this screen while data is being submitted...</message>
+      <message key="submit-progress-image-alt">Progress indicator</message>
+      <message key="checkpoint-option-screen-title">Checkpoint options for ${rulebase}</message>
+      <message key="checkpoint-exists-text">A checkpoint exists for this interview.</message>
+      <message key="checkpoint-resume-button">Continue</message>
+      <message key="checkpoint-ignore-pre-link-text">I'd like to</message>
+      <message key="checkpoint-ignore-link-text">start over</message>
+      <message key="checkpoint-ignore-post-link-text">(and overwrite the existing checkpoint).</message>
+      <message key="ControlValueFormatError">This value is in an invalid format.</message>
+      <message key="CurrencyValueFormatError">This currency value is in an invalid format. Please enter a value in the form '${e.getExample()}'.</message>
+      <message key="NumberValueFormatError">This number value is in an invalid format. Please enter a value in the form '${e.getExample()}'.</message>
+      <message key="DateTimeValueFormatError">This value is in an invalid format. Date and time values should be entered in the format '${e.getFormat()}', for example '${e.getExample()}'.</message>
+      <message key="TimeValueFormatError">This value is in an invalid format. Time values should be entered in the format '${e.getFormat()}', for example '${e.getExample()}'.</message>
+      <message key="DateValueFormatError">This value is in an invalid format. Date values should be entered in the format '${e.getFormat()}', for example '${e.getExample()}'.</message>
+      <message key="InvalidDateError">The entered date does not exist, or is before the year 1 or after the year 9999. Date values should be entered in the format '${e.getFormat()}', for example '${e.getExample()}'.</message>
+      <message key="InvalidDateTimeError">The entered date and time does not exist in the time zone '${e.getTimeZone()}'.</message>
+      <message key="AttributeValueTypeError">This value is of the wrong type.</message>
+      <message key="AttributeValueResetError">This value is invalid for the given parent value.</message>
+      <message key="AttributeValueError">This value is invalid.</message>
+      <message key="MissingValueError">This value is mandatory.</message>
+      <message key="SignatureBlankError">Missing mandatory signature.</message>
+      <message key="SeedDataError">An error has occurred while loading data and the session can not be created.&lt;br/&gt; For further assistance please contact support.</message>
+      <message key="DataSaveError">An error has occurred while saving data.&lt;br/&gt; For further assistance please contact support.</message>
+      <message key="SessionResumeError">Oops. I tried to resume, but something went wrong.</message>
+      <message key="InvalidValueChangeWarning">The value of a read-only or hidden control can not be changed. This value will be discarded.</message>
+      <message key="CaptchaValidationError">The CAPTCHA you have entered is invalid. Please try again.</message>
+      <message key="AlreadySubmittedError">The interview has already been submitted.</message>
+      <message key="MissingAttachmentError">At least one attachment must be provided.</message>
+      <message key="AttachmentEmptyError">The file '${e.getFilename()}' could not be attached because it contains no data.</message>
+      <message key="AttachmentExceedsLimitError">The file '${e.getFilename()}' could not be attached because it exceeds ${e.getMaxSizeMb()} MB.</message>
+      <message key="AttachmentsExceedLimitError">The total file size of attachments for the interview exceeds ${e.getMaximumTotalMbLimit()} MB.&lt;br/&gt; Please review the files you have attached.</message>
+      <message key="AttachmentNameTooLongError">The file '${e.getFilename()}' could not be attached because its filename exceeds ${e.getMaxChars()} characters.</message>
+      <message key="AttachmentNotAllowedError">Invalid file '${e.getFileName()}'. Only attachments with the following extension(s) are allowed: ${e.getAllowableExtensions()}.</message>
+      <message key="SeedNoAttributeError">Could not identify the attribute '${e.attributeName}' to be seeded (OPA-SEED-101)</message>
+      <message key="SeedBadValueError">The attribute '${e.attributeName}' could not be seeded to the value '${e.attributeValue}' (OPA-SEED-102)</message>
+      <message key="SeedNotSeedableError">The attribute '${e.attributeName}' cannot be seeded because it is not marked as seedable (OPA-SEED-103)</message>
+      <message key="SeedNotAllowedError">The attribute '${e.attributeName}' cannot be seeded (OPA-SEED-199)</message>
+      <message key="SeedInvalidFormatError">The seed data supplied is in an invalid format (OPA-SEED-104)</message>
+      <message key="LocaleNotSupportedError">Policy model "${e.getRulebaseIdentifier()}" does not support locale: "${e.getLocale()}"</message>
+      <message key="NullTemplateError">The requested document does not exist.</message>
+      <message key="DocumentGenerationServerError">The Document Generation Server could not be contacted.</message>
+      <message key="MissingTemplateError">Unable to generate report due to a missing document template.</message>
+      <message key="DocumentGenerationError">An error occurred trying to generate the document.</message>
+      <message key="InvalidRequestError">This request is invalid.</message>
+      <message key="NoActiveSessionError">This interview session has expired.&lt;br/&gt;&lt;br/&gt;Click &lt;a href="${e.startSessionLink()}"&gt;here&lt;/a&gt; to start a new interview.</message>
+      <message key="GenericErrorMessage">An error occurred trying to process your request.&lt;br/&gt;For further assistance please contact support.</message>
+      <message key="RenderScreenError">An error occurred attempting to render this screen.</message>
+      <message key="CookiesDisabledError">Policy Automation has detected that cookies are not enabled for this site which will prevent this application from running. Please enable cookies and try again.</message>
+      <message key="ServiceCloudConnectorError">An error has occurred while loading or saving data.&lt;br/&gt; For further assistance please contact support.</message>
+      <message key="ContactSaveError">Error saving Contact. Check you have provided a valid email address that is not in use by another user.</message>
+      <message key="MissingAgentAuthenticationError">This interview can be used only by logged in Agents in the RightNow Agent Desktop.</message>
+      <message key="MissingContactAuthenticationError">This interview can be used only by logged in Contacts in the RightNow Customer Portal.</message>
+      <message key="MissingUserAuthenticationError">This interview can be used only by logged in Contacts or Agents.</message>
+      <message key="NoAssociatedContactError">The Interview cannot be started: a Contact associated to '${e.inputTable()}' was not found via '${e.relationshipName()}'.</message>
+      <message key="RulebaseNotFoundException">This request is invalid.</message>
+      <message key="AuthenticationError">Access denied.</message>
+      <message key="FourOhFourError">404 Not Found.</message>
+      <message key="calendar-time-caption">Time:</message>
+      <message key="am-meridiem-text">AM</message>
+      <message key="pm-meridiem-text">PM</message>
+      <message key="exit-button-text">Exit</message>
+      <message key="restart-button-text">Restart</message>
+      <message key="expired-session-header-text">Session Expired</message>
+      <message key="expired-session-message-text">Your session has expired.</message>
+      <message key="expired-session-button-text">Exit Interview</message>
+      <message key="timeout-warning-header-text">Timeout Warning</message>
+      <message key="timeout-warning-message-text">Your session will expire shortly. Keep working to extend your session.</message>
+      <message key="timeout-warning-button-text">Keep Working</message>
+      <message key="JSONDateTimeNotExistError">The entered date and time does not exist in the time zone '${e.getTimeZone()}'.</message>
+      <message key="IncompleteControlError">This value is incomplete. Please enter a value for every input.</message>
+      <message key="NoProgressLinearInterviewError">The interview can not be progressed because it is not complete.&lt;br/&gt;Please complete all screens and then return to this screen to complete the interview.</message>
+      <message key="InterviewNotCompleteError">The interview can not be submitted because it is not complete.&lt;br/&gt;Please complete all screens and then return to this screen to complete the interview.</message>
+      <message key="slider-low-text">Low</message>
+      <message key="slider-high-text">High</message>
+      <message key="hour-selection-alt">select hour of the time</message>
+      <message key="minutes-selection-alt">select minutes of the time</message>
+      <message key="seconds-selection-alt">select seconds of the time</message>
+      <message key="meridiem-selection-alt">select meridiem of the time</message>
+      <message key="search-results-multiple">There are {0} search results, use arrow keys to navigate</message>
+      <message key="search-results-single">There is 1 search result, use arrow keys to navigate</message>
+      <message key="explanation-show-details">Show Details</message>
+      <message key="explanation-hide-details">Hide Details</message>
+      <message key="screens-caption-single">Screen {0}</message>
+      <message key="screens-caption-multiple">Screen {0} of {1}</message>
+      <message key="table-remove-instance-heading">Remove</message>
+      <message key="unsaved-text-label">This screen may have data that has not been saved.</message>
+      <message key="future-stage-image-alt">This stage is unavailable</message>
+      <message key="confirm-navigate-header-text">Confirm Navigation</message>
+      <message key="confirm-navigate-message-text">This screen currently contains errors that are preventing it from being saved. Do you wish to leave this screen and lose your changes?</message>
+      <message key="confirm-navigate-ok-button-text">Yes</message>
+      <message key="confirm-navigate-cancel-button-text">No</message>
+    </messages>
+    <header-image-asset>e1fe516f-f9e9-4dca-a3c4-3be9c3be984d.jpg</header-image-asset>
+    <true-val>Yes</true-val>
+    <false-val>No</false-val>
+    <unknown-val>Unknown</unknown-val>
+    <uncertain-val>Uncertain</uncertain-val>
+    <temporal-from>from</temporal-from>
+    <complete-stage-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#3A3A3A" back-color="White" />
+    <incomplete-stage-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#3F3F3F" back-color="white" />
+    <complete-screen-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#3f3f3f" back-color="White" />
+    <incomplete-screen-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#3F3F3F" back-color="white" />
+    <complete-stage-image-asset />
+    <complete-screen-image-asset />
+    <incomplete-stage-image-asset />
+    <incomplete-screen-image-asset />
+    <show-icon-on-active-screen>false</show-icon-on-active-screen>
+    <show-icon-on-active-stage>false</show-icon-on-active-stage>
+    <allow-random-access>false</allow-random-access>
+    <back-button-style font-family="" font-size="16px" font-bold="false" font-italic="false" text-color="#fff" back-color="#345A92" shadowed="false" rounded="true" />
+    <next-button-style font-family="" font-size="16px" font-bold="false" font-italic="false" text-color="#fff" back-color="#4F78B0" shadowed="false" rounded="true" />
+    <complete-stage-image-url></complete-stage-image-url>
+    <incomplete-stage-image-url></incomplete-stage-image-url>
+    <complete-screen-image-url></complete-screen-image-url>
+    <incomplete-screen-image-url></incomplete-screen-image-url>
+    <heading5-style font-family="" font-size="" font-bold="true" font-italic="false" text-color="#000" back-color="#fff" />
+    <heading6-style font-family="" font-size="" font-bold="false" font-italic="true" text-color="#2f383c" back-color="#fff" />
+    <entity-table-header-style font-family="" font-size="normal" font-bold="true" font-italic="false" text-color="white" back-color="#345A92" />
+    <add-button-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#fff" back-color="#19739f" shadowed="false" rounded="true" />
+    <remove-button-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#fff" back-color="#19739f" shadowed="false" rounded="true" />
+    <calendar-image-url></calendar-image-url>
+    <show-calendar-icon>true</show-calendar-icon>
+    <sig-canvas-height>100</sig-canvas-height>
+    <sig-canvas-line-height>75</sig-canvas-line-height>
+    <sig-canvas-width>498</sig-canvas-width>
+    <sig-clear-button-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#fff" back-color="#19739f" shadowed="false" rounded="true" />
+    <button-position>TR</button-position>
+    <collect-button-position>TR</collect-button-position>
+    <show-submit-progress>false</show-submit-progress>
+    <use-legacy-interviews>false</use-legacy-interviews>
+    <exit-url></exit-url>
+    <show-exit-button>false</show-exit-button>
+    <exit-button-style font-family="" font-size="16px" font-bold="false" font-italic="false" text-color="#fff" back-color="#19739f" shadowed="false" rounded="true" />
+    <show-restart-button>false</show-restart-button>
+    <restart-button-style font-family="" font-size="16px" font-bold="false" font-italic="false" text-color="#fff" back-color="#19739f" shadowed="false" rounded="true" />
+    <show-submit-progress-image>true</show-submit-progress-image>
+    <submit-progress-image-url></submit-progress-image-url>
+    <submit-progress-style font-family="" font-size="large" font-bold="false" font-italic="false" text-color="Black" back-color="#ffffff" />
+    <show-navigation-strip>true</show-navigation-strip>
+    <show-screen-title>true</show-screen-title>
+    <show-screen-list>true</show-screen-list>
+    <progress-stages-width>200</progress-stages-width>
+    <hide-empty-progress-stages>false</hide-empty-progress-stages>
+    <progress-stages-one-level>false</progress-stages-one-level>
+    <use-advanced-styles>true</use-advanced-styles>
+    <header-alt>Oracle Policy Automation</header-alt>
+    <captcha-length>6</captcha-length>
+    <captcha-img-height>50</captcha-img-height>
+    <captcha-img-width>200</captcha-img-width>
+    <captcha-img-line>curved</captcha-img-line>
+    <captcha-img-distort>dropshadow</captcha-img-distort>
+    <captcha-img-background>gradient</captcha-img-background>
+    <speaker-image-url></speaker-image-url>
+    <has-active-stage-style>true</has-active-stage-style>
+    <has-active-stage-color>true</has-active-stage-color>
+    <has-active-screen-style>true</has-active-screen-style>
+    <screen-popup-style font-family="" font-size="" font-bold="false" font-italic="false" text-color="#000" back-color="#fff" />
+    <primary-color>#2093CB</primary-color>
+    <secondary-color>#19739F</secondary-color>
+    <tertiary-color>#7FBFDF</tertiary-color>
+    <active-stage-color>#2093CB</active-stage-color>
+    <active-screen-color>#1C7EAE</active-screen-color>
+    <show-active-stage-image>true</show-active-stage-image>
+    <show-active-screen-image>false</show-active-screen-image>
+    <active-stage-icon-url></active-stage-icon-url>
+    <active-screen-icon-url></active-screen-icon-url>
+    <complete-stage-color>#3A3A3A</complete-stage-color>
+    <complete-screen-color>#385427</complete-screen-color>
+    <show-complete-stage-image>true</show-complete-stage-image>
+    <show-complete-screen-image>false</show-complete-screen-image>
+    <incomplete-stage-color>#7FBFDF</incomplete-stage-color>
+    <incomplete-screen-color>#7FBFDF</incomplete-screen-color>
+    <show-incomplete-stage-image>false</show-incomplete-stage-image>
+    <show-incomplete-screen-image>false</show-incomplete-screen-image>
+    <future-stage-color>#585858</future-stage-color>
+    <show-future-stage-image>true</show-future-stage-image>
+    <future-stage-image-url></future-stage-image-url>
+    <disabled-theme-color>#8D8D8D</disabled-theme-color>
+    <exit-footer-fill-color>#f5f5f5</exit-footer-fill-color>
+    <exit-footer-top-color>#dddddd</exit-footer-top-color>
+    <wcag-compliance>AA</wcag-compliance>
+    <enforce-upload-whitelist>false</enforce-upload-whitelist>
+    <upload-extension-whitelist></upload-extension-whitelist>
+    <warn-if-unsaved>false</warn-if-unsaved>
+    <show-calendar-dt-icon>true</show-calendar-dt-icon>
+    <calendar-dt-image-url></calendar-dt-image-url>
+    <error-image-url></error-image-url>
+  </project-styling>
+  <second-person-attr id="7430d782-6210-40f8-9e4e-c24e4d391a76" />
+  <project-formatting />
+</rulebase-project>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<global-instance>
+  <biz_Type_value>biz_Type_DATA1</biz_Type_value>
+  <biz_Type_text>the business type</biz_Type_text>
+  <biz_Status_value>biz_Status_DATA2</biz_Status_value>
+  <biz_Status_text>the status of the business</biz_Status_text>
+  <biz_LegalStructure_value>biz_LegalStructure_DATA3</biz_LegalStructure_value>
+  <biz_LegalStructure_text>the legal structure of the business</biz_LegalStructure_text>
+  <biz_EmpNumberGroup_value>biz_EmpNumberGroup_DATA4</biz_EmpNumberGroup_value>
+  <biz_EmpNumberGroup_text>the number (grouping) of employees in the business</biz_EmpNumberGroup_text>
+  <FoodPrep_value>true</FoodPrep_value>
+  <FoodPrep_text>the applicant intends to conduct any type of food preparation</FoodPrep_text>
+  <FoodPerishable_value>true</FoodPerishable_value>
+  <FoodPerishable_text>the applicant intends to sell perishable food (eggs, fluid milk and refrigerated meats)</FoodPerishable_text>
+  <PurchaseExistingBiz_value>true</PurchaseExistingBiz_value>
+  <PurchaseExistingBiz_text>the applicant intends to purchase an existing business</PurchaseExistingBiz_text>
+  <InfoExpandBiz_value>true</InfoExpandBiz_value>
+  <InfoExpandBiz_text>the applicant would like general information about starting or expanding a business</InfoExpandBiz_text>
+  <EmployerObligations_value>true</EmployerObligations_value>
+  <EmployerObligations_text>the applicant would like information on employer obligations</EmployerObligations_text>
+  <applicant_value>applicant_DATA10</applicant_value>
+  <applicant_text>the applicant</applicant_text>
+  <VendingMachine_value>true</VendingMachine_value>
+  <VendingMachine_text>the applicant intends to operate a vending machine</VendingMachine_text>
+  <Prescriptions_value>true</Prescriptions_value>
+  <Prescriptions_text>the applicant intends to sell prescription medication</Prescriptions_text>
+  <OnlinePayment_value>true</OnlinePayment_value>
+  <OnlinePayment_text>the applicant intends to accept online payments</OnlinePayment_text>
+  <EmptyBeverageContainer_value>true</EmptyBeverageContainer_value>
+  <EmptyBeverageContainer_text>the applicant intends to accept returnable empty beverage containers for redemption</EmptyBeverageContainer_text>
+  <LotteryTickets_value>true</LotteryTickets_value>
+  <LotteryTickets_text>the applicant intends to sell lottery tickets</LotteryTickets_text>
+  <OffPremiseBeer_value>true</OffPremiseBeer_value>
+  <OffPremiseBeer_text>the applicant intends to sell beer for off-premise consumption</OffPremiseBeer_text>
+  <OffPremiseWine_value>true</OffPremiseWine_value>
+  <OffPremiseWine_text>the applicant intends to sell wine products for off-premise consumption</OffPremiseWine_text>
+  <WeighDevice_value>true</WeighDevice_value>
+  <WeighDevice_text>the applicant intends to use a commercial weighing or measuring device</WeighDevice_text>
+</global-instance>

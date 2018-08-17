@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<interview product-version="12.2.11.0">
+  <cors />
+  <documents UsePDFA="false" />
+  <screens>
+    <Screen Title="Business Type" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="false" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="always" ID="08a2118d-bdeb-418a-bfe9-c60b4361d8ff">
+      <Controls>
+        <LabelControl TextStyle="Normal" Caption="Every business needs to be licensed to legally operate. Depending on the business, you may need to be licensed at the federal, state and/or local level. In addition to a basic business license, you may need additional specific licenses to legally operate your business." ControlWidth="0" DefaultState="enabled" ID="661f1261-3cef-40ca-b621-85476d9c569f" />
+        <AttributeInputControl Attribute="2be88c25-03fa-4ee0-9ded-44955c6c228d" DefaultValue="Grocery Store" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Dropdown" HintText="" Caption="&lt;b&gt;Please select your business type:&lt;/b&gt;" ControlWidth="0" DefaultState="enabled" ID="06e1f73e-9aec-4fdd-b231-7a1ae679e90f">
+          <ManualList>
+            <ListItem DisplayText="Architecture" Value="Architecture" />
+            <ListItem DisplayText="Bakery" Value="Bakery" />
+            <ListItem DisplayText="Construction" Value="Construction" />
+            <ListItem DisplayText="Dental Services" Value="Dental Services" />
+            <ListItem DisplayText="Electrician" Value="Electrician" />
+            <ListItem DisplayText="Financial Services" Value="Financial Services" />
+            <ListItem DisplayText="Graphic Design" Value="Graphic Design" />
+            <ListItem DisplayText="Grocery Store" Value="Grocery Store" />
+            <ListItem DisplayText="Hair Salon" Value="Hair Salon" />
+            <ListItem DisplayText="Insurance" Value="Insurance" />
+            <ListItem DisplayText="Janitorial Services" Value="Janitorial Services" />
+            <ListItem DisplayText="Kennel" Value="Kennel" />
+            <ListItem DisplayText="Legal Services" Value="Legal Services" />
+            <ListItem DisplayText="Medical Services" Value="Medical Services" />
+            <ListItem DisplayText="Nail Salon" Value="Nail Salon" />
+            <ListItem DisplayText="Optometrist" Value="Optometrist" />
+            <ListItem DisplayText="Pharmacy" Value="Pharmacy" />
+            <ListItem DisplayText="Plumber" Value="Plumber" />
+            <ListItem DisplayText="Restaurant" Value="Restaurant" />
+            <ListItem DisplayText="Taxi" Value="Taxi" />
+            <ListItem DisplayText="Veterinarian" Value="Veterinarian" />
+          </ManualList>
+        </AttributeInputControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;img src=&quot;${resources-root}/images/HandCursor.jpg&quot; alt=&quot;HandCursor.jpg&quot; /&gt;&lt;a href=&quot;https://www.sba.gov/blogs/how-register-your-small-business-four-steps&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Four Steps to Registering Your Business&lt;/b&gt;&lt;/a&gt;. Whether you are starting or expanding a business, there are four key steps you must follow.&#xD;&#xA;&#xD;&#xA;&lt;br/&gt;&lt;img src=&quot;${resources-root}/images/HandCursor.jpg&quot; alt=&quot;HandCursor.jpg&quot; /&gt;&lt;a href=&quot;http://www.sba.gov/category/navigation-structure/starting-managing-business/starting-business/business-law-regulations&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Business Law and Regulations&lt;/b&gt;&lt;/a&gt;. Small business owners are subject to the same regulations as large corporations. Visit this link for information about advertising law, environment and labor law, finance law, intellectual property, online business law, privacy law, environment regulations uniform commercial code, workplace health and safety, and law with regard to foreign workers, immigration and employee eligibility.&#xD;&#xA;&#xD;&#xA;&lt;br/&gt;&lt;img src=&quot;${resources-root}/images/HandCursor.jpg&quot; alt=&quot;HandCursor.jpg&quot; /&gt;Apply for your &lt;a href=&quot;http://www.irs.gov/Businesses/Small-Businesses-&amp;-Self-Employed/Apply-for-an-Employer-Identification-Number-(EIN)-Online&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Federal Employer Identification Number (FEIN)&lt;/b&gt;&lt;/a&gt; on the IRS website. The FEIN is a nine-digit number assigned by the IRS to identify taxpayers who are required to file various business tax returns." ControlWidth="0" DefaultState="enabled" ID="625020b8-55b8-4b0e-9edd-084048816bcc" />
+        <LabelControl TextStyle="Normal" Caption="&lt;i&gt;&lt;b&gt;Note:&lt;/b&gt; This demonstration illustrates the use of Oracle Policy Automation to provide license and permit advice. It is not intended to represent any specific organization’s rules. Links to external sites from the demonstration are intended to illustrate the solution’s ability to direct users to other websites. The sites linked from this demonstration are not intended to imply a product endorsement by those organizations.&lt;/i&gt;" ControlWidth="0" DefaultState="enabled" ID="ecac08db-cf13-48c6-a18b-20df5a29d587" />
+      </Controls>
+    </Screen>
+    <Screen Title="%biz_Type%" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="956089c1-620d-4f0b-9be4-21a3ee5aefe9">
+      <Controls>
+        <LabelControl TextStyle="Normal" Caption="You have selected &lt;b&gt;%biz_Type%&lt;/b&gt;. Please provide the following information:" ControlWidth="0" DefaultState="enabled" ID="30df63b5-c7dd-482a-b404-e53f7dc18813" />
+        <AttributeInputControl Attribute="25416e09-2078-4c1b-8ddc-45d6382649d2" DefaultValue="1-10" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Dropdown" HintText="" Caption="Number of employees:" ControlWidth="0" DefaultState="enabled" ID="3befb5fc-bc5d-4d73-bd8c-585ae21cfb99">
+          <ManualList>
+            <ListItem DisplayText="0" Value="0" />
+            <ListItem DisplayText="1-10" Value="1-10" />
+            <ListItem DisplayText="11-25" Value="11-25" />
+            <ListItem DisplayText="26-50" Value="26-50" />
+            <ListItem DisplayText="51-150" Value="51-150" />
+            <ListItem DisplayText="150+" Value="150+" />
+          </ManualList>
+        </AttributeInputControl>
+        <AttributeInputControl Attribute="c89440c4-7a74-4296-bf16-82617285f89d" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Dropdown" HintText="" Caption="Legal structure:" ControlWidth="0" DefaultState="enabled" ID="711f383f-6285-419d-babd-69f6da98a078">
+          <ManualList>
+            <ListItem DisplayText="Sole Proprietor" Value="Sole Proprietor" />
+            <ListItem DisplayText="Partnership" Value="Partnership" />
+            <ListItem DisplayText="Corporation" Value="Corporation" />
+            <ListItem DisplayText="Undecided" Value="Undecided" />
+          </ManualList>
+        </AttributeInputControl>
+        <AttributeInputControl Attribute="922763cc-f39d-4163-a172-7bf1fc9e2485" DefaultValue="New" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="false" InputStyle="Radiobutton" HintText="" Caption="New or expanding business:" ControlWidth="0" DefaultState="enabled" ID="755b2f98-047d-4978-9287-8858ef2a1a63">
+          <ManualList>
+            <ListItem DisplayText="New" Value="New" />
+            <ListItem DisplayText="Expanding" Value="Expanding" />
+          </ManualList>
+        </AttributeInputControl>
+      </Controls>
+    </Screen>
+    <Screen Title="Food" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="ee08cdc2-0785-44dd-a0d5-271f0195f0a2">
+      <Controls>
+        <LabelControl TextStyle="Heading4" Caption="Food processing and preparation examples include: heating food, slicing or grinding food such as meat and cheese, making sandwiches and salad, and operating beverage preparation machines such as soda and coffee machines." ControlWidth="0" DefaultState="enabled" ID="5737d833-2d2e-4b2a-9a36-e857a0c58df4" />
+        <AttributeInputControl Attribute="119d007f-2389-4325-b237-72ef2dcf97db" DefaultValue="false" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="d51c1fcf-aae2-4ab9-8ca0-261cfb2c0a43" />
+        <AttributeInputControl Attribute="7ea5a2a5-2bb1-493c-93d6-65825283a077" DefaultValue="false" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="ece8deed-96e7-4517-b68e-70328b9e36a8" />
+      </Controls>
+    </Screen>
+    <Screen Title="Beer and Wine" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="b6956269-a24b-4a73-8466-de0e0506e8c3">
+      <Controls>
+        <AttributeInputControl Attribute="366f714c-a666-4445-b4f0-d54d3340806d" DefaultValue="true" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="7c2ab3fe-dc7e-4484-b72d-b9fa35380904" />
+        <AttributeInputControl Attribute="633bbcc6-d84e-49f0-907a-a3341efb8cc6" DefaultValue="false" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="e38c7c4c-0e18-44f6-8a18-23e3316e7d42" />
+      </Controls>
+    </Screen>
+    <Screen Title="Weighing and Measuring Devices" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="ebfc65d4-2dfd-48c3-9e5d-50a3ac0dd421">
+      <Controls>
+        <AttributeInputControl Attribute="40d915d3-e2be-483d-baa7-f3953843d5db" DefaultValue="false" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="55159605-9da8-4b17-936b-a10d599ee92b" />
+        <LabelControl TextStyle="Heading4" Caption="Please be aware that commercially used weighing and measuring devices must be approved for use in your jurisdiction." ControlWidth="0" DefaultState="enabled" ID="b0ffd1a9-3a81-481b-8778-40e0d099f744" />
+      </Controls>
+    </Screen>
+    <Screen Title="Vending Machine" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="5bdc85e8-b2f2-43d7-b52d-2b9dc4adf9fc">
+      <Controls>
+        <AttributeInputControl Attribute="5640c0f1-5ad1-4760-a6cc-b6131ccfef6d" DefaultValue="true" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="2972b07b-c709-4a3d-85a4-4328e11a2824" />
+      </Controls>
+    </Screen>
+    <Screen Title="Lottery Tickets" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="badc9fd3-8b9f-4132-bb49-765db582d551">
+      <Controls>
+        <AttributeInputControl Attribute="efd592da-8b95-4824-913b-b7acec79a5d4" DefaultValue="true" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="16f4cb4a-751e-480b-94d5-3ba088b96b74" />
+      </Controls>
+    </Screen>
+    <Screen Title="Pharmacy" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="25ac76c2-ceeb-4759-9d8f-3b8532f6430b">
+      <Controls>
+        <AttributeInputControl Attribute="2bf51aad-8a47-4a03-a46e-9be87994500a" DefaultValue="false" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="84074dc5-c509-4477-93b4-c536f615001f" />
+      </Controls>
+    </Screen>
+    <Screen Title="Online Payments" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="c33298b6-94dd-4895-aab9-ce27dcea8a92">
+      <Controls>
+        <AttributeInputControl Attribute="93a7468c-3a3c-44fc-b2b1-11be17f2af49" DefaultValue="true" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="8c0af73b-76fa-47eb-8c02-fd459a932e69" />
+      </Controls>
+    </Screen>
+    <Screen Title="Empty Beverage Containers" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="5f148969-5429-4e23-9527-472d8ddbab6b">
+      <Controls>
+        <AttributeInputControl Attribute="13f2e2d5-1d27-47fb-8fcd-013e1a9856d5" DefaultValue="true" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="8a359670-07c4-4c6f-8344-a99efe715a17" />
+      </Controls>
+    </Screen>
+    <Screen Title="General Info" SubmitAction="Next" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="7a966438-59e8-47e8-b625-f759045cd9ac">
+      <Controls>
+        <AttributeInputControl Attribute="a2677ff3-5edb-4d3d-81bb-110d051a8893" DefaultValue="false" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="1ab19b87-eb2e-4bac-a466-e8adf6a0f47b" />
+        <AttributeInputControl Attribute="785d5105-f87a-4a49-9c8c-ecc9fe2b1846" DefaultValue="true" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="d7ea8b77-fafe-409a-a64a-75ae32c3680f" />
+        <AttributeInputControl Attribute="6e057652-2cfa-49d4-bfd6-d6cea6ccbe3f" DefaultValue="true" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2016" YearEnd="1916" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="77d165ef-3190-42c4-aae5-841ee85c0607" />
+      </Controls>
+    </Screen>
+    <Screen Title="Summary" SubmitAction="Stop" CheckpointAfterSubmit="false" DynamicErrors="true" SubmitRedirectURL="" HasBackButton="true" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="always" ID="2a376f76-c190-4482-a8bc-ec3d66de33fa">
+      <Controls>
+        <LabelControl TextStyle="Normal" Caption="This customized list of links on information for starting a business was created based on the selected business type and your answers to the questions. Click on the links for detailed information." ControlWidth="0" DefaultState="enabled" ID="de63b449-3fd9-4825-ae6d-9d3bb670aed8" />
+        <LabelControl TextStyle="Normal" Caption="Prior to applying for required permits, you must first register/file your business name. Click here for information about &lt;a href=&quot;http://www.sba.gov/content/register-your-fictitious-or-doing-business-dba-name&quot; target=&quot;_blank&quot;&gt;registering your fictitious or &quot;doing business as&quot; (DBA) name&lt;/a&gt;." ControlWidth="0" DefaultState="enabled" ID="21122d20-08ae-4c4a-a009-fdf7396203bf" />
+        <LabelControl TextStyle="Normal" Caption="&lt;b&gt;Disclaimer:&lt;/b&gt; The information provided is for demonstration purposes only. You should consult an accountant and/or attorney before starting, expanding or investing in a business. This demonstration makes no guarantees regarding the completeness of the information provided." ControlWidth="0" DefaultState="enabled" ID="7cd3f93e-e5bd-4e9b-b52a-737010a23f04" />
+        <LabelControl TextStyle="Heading2" Caption="Permit and License Links" ControlWidth="0" DefaultState="enabled" ID="1deff3ba-95b3-4bae-9e19-be1839ac03db" />
+        <LabelControl TextStyle="Normal" Caption="&lt;img src=&quot;${resources-root}/images/HandCursor.jpg&quot; alt=&quot;HandCursor.jpg&quot; /&gt;&lt;a href=&quot;http://www.tax.ny.gov/bus/ads/webdtf17.htm&quot; target=&quot;_blank&quot;&gt;Certificate of Authority to Collect Sales Tax&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="6786de1d-760d-4d4f-9a87-71b4106dd34e" />
+        <LabelControl TextStyle="Normal" Caption="&lt;img src=&quot;${resources-root}/images/HandCursor.jpg&quot; alt=&quot;HandCursor.jpg&quot; /&gt;&lt;a href=&quot;http://www.michigan.gov/documents/MDA_FoodEstablishmentLicenseApplicationForm_41243_7.pdf&quot; target=&quot;_blank&quot;&gt;Food Establishment License&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="d97b7aef-bc7d-494d-ad0f-809ce444f6cc">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="1bc0342e-d4ce-437a-8517-7f03db55156a">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;img src=&quot;${resources-root}/images/HandCursor.jpg&quot; alt=&quot;HandCursor.jpg&quot; /&gt;&lt;a href=&quot;http://www.ttb.gov/forms/f56305d.pdf&quot; target=&quot;_blank&quot;&gt;Alcohol Dealer Registration&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="ca6f4553-32cc-43f5-b83f-cd71e1135393">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="ab1d29a2-88f0-4284-94f5-3062a5377ad7">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;img src=&quot;${resources-root}/images/HandCursor.jpg&quot; alt=&quot;HandCursor.jpg&quot; /&gt;&lt;a href=&quot;http://www.ct.gov/dcp/cwp/view.asp?a=1622&amp;q=446722&quot; target=&quot;_blank&quot;&gt;Weights and Measures License&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="f001c26c-c6e0-4faf-ab18-9e2550eaffcd">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="6401f8b1-bf2a-475c-9ab0-c52d5b5cba7d">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;img src=&quot;${resources-root}/images/HandCursor.jpg&quot; alt=&quot;HandCursor.jpg&quot; /&gt;&lt;a href=&quot;http://www.ct.gov/dcp/lib/dcp/pdf/applications_added_2013/vending_11_04_mod.pdf&quot; target=&quot;_blank&quot;&gt;Vending Machine License&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="d265479c-214a-48d9-b97b-e7314815fbf2">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="8630f469-7d3f-43a1-ad4f-eb21926deb06">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;img src=&quot;${resources-root}/images/HandCursor.jpg&quot; alt=&quot;HandCursor.jpg&quot; /&gt;&lt;a href=&quot;http://lottery.dc.gov/sites/default/files/dc/sites/DCLB%%20-%%20DCLottery/publication/attachments/fullappainstructionsforcompletingformsparta3_r.pdf&quot; target=&quot;_blank&quot;&gt;Lottery Agent License&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="01435b3f-65e3-40f9-b4a3-22709bc1f78b">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="4ef7a901-2a6c-43d8-b885-b2f598a6e983">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;img src=&quot;${resources-root}/images/HandCursor.jpg&quot; alt=&quot;HandCursor.jpg&quot; /&gt;&lt;a href=&quot;http://www.ct.gov/dcp/lib/dcp/pdf/applications_october_2009/pcy-09oct.pdf&quot; target=&quot;_blank&quot;&gt;Pharmacy License&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="03c85931-70cd-4568-8d84-cffa6651f848">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="169ec802-a164-4c5c-afc8-bf2db9cb597a">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Heading2" Caption="Business Structure" ControlWidth="0" DefaultState="enabled" ID="5b59350e-ebd5-44c3-a27d-46dac54f1e6b">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="af446478-64e2-48bd-8ffc-cb0222f56483">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.sba.gov/content/sole-proprietorship-0&quot; target=&quot;_blank&quot;&gt;Sole Proprietor&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="0a4c92f1-49cc-4cd5-9b27-c4c2d0063d5d">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="6815f523-dea7-462b-8b62-62441a625b08">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.sba.gov/content/partnership&quot; target=&quot;_blank&quot;&gt;Partnership&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="95df57b9-41ab-4ff0-b561-849a52b5090c">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="fbee91ea-cdb6-446e-9139-8238d1b9d45c">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.sba.gov/content/corporation&quot; target=&quot;_blank&quot;&gt;Corporation&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="ba7d6bd1-1776-480e-ade5-681bcf2a0e26">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="288f7ae4-36a9-4109-8d0c-5035d4dc026e">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Heading2" Caption="Employer Information" ControlWidth="0" DefaultState="enabled" ID="0f2261e5-82cd-4fe4-a96a-cd33808d3aae" />
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.irs.gov/Businesses/Small-Businesses-&amp;-Self-Employed/Apply-for-an-Employer-Identification-Number-(EIN)-Online&quot; target=&quot;_blank&quot;&gt;Federal Employer Identification Number (EIN)&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="13aed1ab-88b8-4be3-aa61-7e4acdfdfd24" />
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.dol.gov/dol/topic/unemployment-insurance/&quot; target=&quot;_blank&quot;&gt;Unemployment Insurance&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="05f42a08-33a8-41e6-8497-7d25c5ad6775" />
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.dol.gov/dol/topic/workcomp/index.htm&quot; target=&quot;_blank&quot;&gt;Workers' Compensation&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="41c4749a-7d5f-4c66-8243-853dc56c4736" />
+        <LabelControl TextStyle="Heading2" Caption="Information Sheets" ControlWidth="0" DefaultState="enabled" ID="7229bdb6-f72f-4922-8044-02438fcf90ec">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="0864ad07-fc16-41cf-ab0f-ee9074611dfc">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://revenue.delaware.gov/information/faqs_bottlefee.shtml&quot; target=&quot;_blank&quot;&gt;Returnable Beverage Containers&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="83381398-eca1-4a5d-a198-a7bf744d0a19">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="2b2b0a6b-90bc-4ba8-8fd1-181eae2bedf7">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;https://www.sba.gov/managing-business/running-business/managing-business-finances-accounting/online-payment-services&quot; target=&quot;_blank&quot;&gt;Online Payment Services&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="4780f57a-6df4-49ca-a57c-ffa6911dedad">
+          <HideIfExpr ExprType="Unless" Op="==" Attribute="460930a6-c63f-4f1c-a630-1cc5e2f37602">
+            <Values>
+              <Boolean>true</Boolean>
+            </Values>
+          </HideIfExpr>
+        </LabelControl>
+        <LabelControl TextStyle="Heading2" Caption="Helpful Information" ControlWidth="0" DefaultState="enabled" ID="48f38b4e-64a9-4421-b4c8-b58be1d09c83" />
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.sba.gov/category/navigation-structure/starting-managing-business/starting-business&quot; target=&quot;_blank&quot;&gt;Starting a Business&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="ef84d3ae-7c70-4dee-97ed-55ae91e694f5" />
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.sba.gov/category/navigation-structure/starting-managing-business/managing-business&quot; target=&quot;_blank&quot;&gt;Managing a Business&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="b21bb13f-60b3-4bac-9952-b99d259ccfd4" />
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.sba.gov/content/how-name-business&quot; target=&quot;_blank&quot;&gt;Choosing a Business Name&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="8d7017f5-0b00-464c-b0ba-8c040607513e" />
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.sba.gov/category/navigation-structure/starting-managing-business/starting-business/establishing-business/hir&quot; target=&quot;_blank&quot;&gt;Hiring Employees&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="fb67959e-7ed1-4f4f-b7c0-34263f40a8fd" />
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.sba.gov/category/navigation-structure/loans-grants/small-business-loans&quot; target=&quot;_blank&quot;&gt;Small Business Loans&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="f82d5870-0cdc-404f-b60f-011c6f79a168" />
+        <LabelControl TextStyle="Normal" Caption="&lt;a href=&quot;http://www.sba.gov/category/navigation-structure/starting-managing-business/managing-business/business-law-regulations&quot; target=&quot;_blank&quot;&gt;Business Law and Regulations&lt;/a&gt;" ControlWidth="0" DefaultState="enabled" ID="2707e0f1-d302-4f0f-864c-7d609310eaf8" />
+      </Controls>
+    </Screen>
+  </screens>
+  <screen-order ID="96ff7998-9b3a-4cfd-8280-f748453d3707" PublicName="Main">
+    <goal-set>
+      <attr id="a37f6337-0599-44c9-9690-2985c469b36c" />
+    </goal-set>
+    <ScreenOrderItemContainer ID="b0cbccd6-2f79-4549-b826-430e6c692d30" Title="Start">
+      <ScreenOrderScreen Screen="08a2118d-bdeb-418a-bfe9-c60b4361d8ff" />
+      <ScreenOrderScreen Screen="956089c1-620d-4f0b-9be4-21a3ee5aefe9" />
+    </ScreenOrderItemContainer>
+    <ScreenOrderItemContainer ID="980d09f5-f8b5-4b4a-9698-89b579ddb4af" Title="Food">
+      <ScreenOrderScreen Screen="ee08cdc2-0785-44dd-a0d5-271f0195f0a2" />
+    </ScreenOrderItemContainer>
+    <ScreenOrderItemContainer ID="43b63a89-5379-4486-a8d5-f8d0d0b0aa8f" Title="Alcohol">
+      <ScreenOrderScreen Screen="b6956269-a24b-4a73-8466-de0e0506e8c3" />
+    </ScreenOrderItemContainer>
+    <ScreenOrderItemContainer ID="f84cb83c-aed2-4138-8082-0feee3c01086" Title="Devices">
+      <ScreenOrderScreen Screen="ebfc65d4-2dfd-48c3-9e5d-50a3ac0dd421" />
+    </ScreenOrderItemContainer>
+    <ScreenOrderItemContainer ID="f9c7a624-2aca-4ab2-9d93-9c311da6c470" Title="Vending">
+      <ScreenOrderScreen Screen="5bdc85e8-b2f2-43d7-b52d-2b9dc4adf9fc" />
+    </ScreenOrderItemContainer>
+    <ScreenOrderItemContainer ID="ac11246d-6ecc-4cf4-ba92-be043919a041" Title="Lottery">
+      <ScreenOrderScreen Screen="badc9fd3-8b9f-4132-bb49-765db582d551" />
+    </ScreenOrderItemContainer>
+    <ScreenOrderItemContainer ID="092a4162-3b05-492b-ba32-fffa3a1df68b" Title="Pharmacy">
+      <ScreenOrderScreen Screen="25ac76c2-ceeb-4759-9d8f-3b8532f6430b" />
+    </ScreenOrderItemContainer>
+    <ScreenOrderItemContainer ID="1243e56a-feae-4d0e-a1c6-ff8237cb756e" Title="General">
+      <ScreenOrderScreen Screen="c33298b6-94dd-4895-aab9-ce27dcea8a92" />
+      <ScreenOrderScreen Screen="5f148969-5429-4e23-9527-472d8ddbab6b" />
+      <ScreenOrderScreen Screen="7a966438-59e8-47e8-b625-f759045cd9ac" />
+    </ScreenOrderItemContainer>
+    <ScreenOrderItemContainer ID="36ab2232-a856-460f-a81e-9f054dab783e" Title="Summary">
+      <ScreenOrderScreen Screen="2a376f76-c190-4482-a8bc-ec3d66de33fa" />
+    </ScreenOrderItemContainer>
+  </screen-order>
+</interview>
